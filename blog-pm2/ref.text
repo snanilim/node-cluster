@@ -1,0 +1,2 @@
+https://blog.pm2.io/node-js-clustering-made-easy-with-pm2/
+pm2 start --name nodejs blog-pm2/server.js -i 0 --watch
