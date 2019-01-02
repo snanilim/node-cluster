@@ -1,4 +1,4 @@
-const http = require('http');
+const http = require('http2');
 const pid = process.pid;
 
 
@@ -9,7 +9,5 @@ http.createServer((req, res) => {
     console.log(`Started process ${pid}`);
 });
 
-setTimeout(() => {
-    process.exit(1)
-}, Math.random() * 10000);
+
 
